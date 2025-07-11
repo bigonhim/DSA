@@ -18,8 +18,7 @@ const sort = (x) => {
 };
 console.log("After Sort : ", sort(arr));
 
-//Implementing a Binary search algorithim to search for the number 2 in the above array after the sort procedure has been completed
-// import math
+// Implementing a Binary search algorithim to search for the number 2 in the above array after the sort procedure has been completed
 const bs = (arr, x) => {
   let left = 0;
   let right = arr.length - 1;
@@ -39,4 +38,9 @@ const bs = (arr, x) => {
   return "Item not found";
 };
 
-console.log(bs(arr, 51));
+console.log(bs(arr, 53));
+
+
+
+
+
