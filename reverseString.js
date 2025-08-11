@@ -1,6 +1,5 @@
 // This algorithm involves reversing the order of a string 
 
-
 const reverseString = (string) => {
       let j = string.length - 1;
       let reversed = '';

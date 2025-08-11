@@ -23,4 +23,4 @@ const subsequence = (s,t) => {
     }
 }
 
-console.log(subsequence("aec","abcde"));
+console.log(subsequence("abc","abcde"));
